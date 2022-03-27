@@ -1,0 +1,2655 @@
+Playback::frame, 0
+Playback::version, 2, 131588
+#
+# FMOD v2.02.04 command capture
+#   System::setSoftwareChannels(numsoftwarechannels: 256)
+#   System::setDSPBufferSize(bufferlength: 1024, numbuffers: 4)
+#   System::setSoftwareFormat(samplerate: 48000, speakermode: 3, numrawspeakers: 2)
+#   System::setAdvancedSettings(settings: {maxMPEGCodecs: 0, maxADPCMCodecs: 0, maxXMACodecs: 0, maxVorbisCodecs: 256, maxAT9Codecs: 0, maxFADPCMCodecs: 0, maxPCMCodecs: 0, maxOpusCodecs: 0
+#       ASIONumChannels: 0, vol0virtualvol: 0, defaultDecodeBufferSize: 400, geometryMaxFadeTime: 0,
+#       distanceFilterCenterFreq: 1500, reverb3Dinstance: 0, DSPBufferPoolSize: 8, resamplerMethod: 2, randomSeed: 2766620623})
+#   Studio::System::setAdvancedSettings(settings: {commandqueuesize: 32768, handleinitialsize: 65536, studioupdateperiod: 20, idlesampledatapoolsize: 262144})
+#   Studio::System::initialize(maxchannels: 1024, studioflags: 0x00000009, flags: 0x00030000)
+#
+Playback::frame, 0
+# Printing initial instance state
+System::loadBankFile, FMOD Project/Doppler Test/Build/Desktop/Master.strings.bank, 0, 2097376
+Playback::loadBankFinished, {fb4ab982-c8c4-0eaa-0b34-16c2e58168bc}, 2097376, 0
+System::loadBankFile, FMOD Project/Doppler Test/Build/Desktop/Master.bank, 0, 2097632
+Playback::loadBankFinished, {63579956-b9bf-42e8-8d7d-9c3c14726e24}, 2097632, 0
+Bank::getEventListItem, 2097632, 0, {687fa4f1-9754-4155-9a21-c78636440cb9}, 2098144
+Bank::getBusListItem, 2097632, 0, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0.14,1,-4.02}, true
+EventDescription::createInstance, 2098144, 2099168
+EventInstance::set3DAttributes, 2099168, {{0,7.5931,0},{0,-9.6138,0},{0,0,1},{0,1,0}}
+EventInstance::setTimelinePosition, 2099168, 1825
+EventInstance::start, 2099168
+# Finished printing initial instance state
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,7.3969,0},{0,-9.81,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,7.3969,0},{0,-9.81,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,7.19678,0},{0,-10.0062,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,7.19678,0},{0,-10.0062,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.99273,0},{0,-10.2024,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.99273,0},{0,-10.2024,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.99273,0},{0,-10.2024,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.78476,0},{0,-10.3986,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.78476,0},{0,-10.3986,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.78476,0},{0,-10.3986,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.57286,0},{0,-10.5948,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.57286,0},{0,-10.5948,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.57286,0},{0,-10.5948,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.57286,0},{0,-10.5948,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.35704,0},{0,-10.791,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.35704,0},{0,-10.791,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.35704,0},{0,-10.791,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.1373,0},{0,-10.9872,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.1373,0},{0,-10.9872,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,6.1373,0},{0,-10.9872,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.68604,0},{0,-11.3796,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.68604,0},{0,-11.3796,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.68604,0},{0,-11.3796,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.45452,0},{0,-11.5758,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.45452,0},{0,-11.5758,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.45452,0},{0,-11.5758,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.21908,0},{0,-11.772,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.21908,0},{0,-11.772,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,5.21908,0},{0,-11.772,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.97971,0},{0,-11.9682,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.97971,0},{0,-11.9682,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.73643,0},{0,-12.1644,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.73643,0},{0,-12.1644,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.73643,0},{0,-12.1644,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.48921,0},{0,-12.3606,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.48921,0},{0,-12.3606,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.48921,0},{0,-12.3606,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.23808,0},{0,-12.5568,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,4.23808,0},{0,-12.5568,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.72403,0},{0,-12.9492,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.72403,0},{0,-12.9492,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.72403,0},{0,-12.9492,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.46113,0},{0,-13.1454,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.46113,0},{0,-13.1454,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.46113,0},{0,-13.1454,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.19429,0},{0,-13.3416,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.19429,0},{0,-13.3416,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,3.19429,0},{0,-13.3416,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.92354,0},{0,-13.5378,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.92354,0},{0,-13.5378,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.92354,0},{0,-13.5378,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.92354,0},{0,-13.5378,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.64886,0},{0,-13.734,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.64886,0},{0,-13.734,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.64886,0},{0,-13.734,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.37025,0},{0,-13.9302,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.37025,0},{0,-13.9302,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.37025,0},{0,-13.9302,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.37025,0},{0,-13.9302,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.08773,0},{0,-14.1264,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,2.08773,0},{0,-14.1264,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,1.5109,0},{0,-14.5188,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,1.5109,0},{0,-14.5188,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,1.2166,0},{0,-14.715,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,1.2166,0},{0,-14.715,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,1.2166,0},{0,-14.715,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.918373,0},{0,-14.9112,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.918373,0},{0,-14.9112,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.616224,0},{0,-15.1074,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.616224,0},{0,-15.1074,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.310152,0},{0,-15.3036,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.310152,0},{0,-15.3036,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.310152,0},{0,-15.3036,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.000155985,0},{0,-15.4998,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,0.000155985,0},{0,-15.4998,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-0.313764,0},{0,-15.696,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-0.313764,0},{0,-15.696,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-0.953377,0},{0,-16.0884,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-0.953377,0},{0,-16.0884,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-0.953377,0},{0,-16.0884,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.27907,0},{0,-16.2846,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.27907,0},{0,-16.2846,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.27907,0},{0,-16.2846,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.60869,0},{0,-16.4808,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.60869,0},{0,-16.4808,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.60869,0},{0,-16.4808,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.94223,0},{0,-16.677,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.94223,0},{0,-16.677,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-1.94223,0},{0,-16.677,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-2.27969,0},{0,-16.8732,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-2.27969,0},{0,-16.8732,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-2.27969,0},{0,-16.8732,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-2.27969,0},{0,-16.8732,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-2.62108,0},{0,-17.0694,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-2.62108,0},{0,-17.0694,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-2.96639,0},{0,-17.2656,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-3.31563,0},{0,-17.4618,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-3.31563,0},{0,-17.4618,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-3.31563,0},{0,-17.4618,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-3.66879,0},{0,-17.658,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-3.66879,0},{0,-17.658,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-3.66879,0},{0,-17.658,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-3.66879,0},{0,-17.658,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.02587,0},{0,-17.8542,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.02587,0},{0,-17.8542,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.02587,0},{0,-17.8542,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.38688,0},{0,-18.0504,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.38688,0},{0,-18.0504,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.38688,0},{0,-18.0504,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.38688,0},{0,-18.0504,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.75181,0},{0,-18.2466,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.75181,0},{0,-18.2466,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-4.75181,0},{0,-18.2466,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-5.12067,0},{0,-18.4428,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-5.12067,0},{0,-18.4428,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-5.12067,0},{0,-18.4428,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-5.12067,0},{0,-18.4428,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-5.49345,0},{0,-18.639,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-5.49345,0},{0,-18.639,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-5.49345,0},{0,-18.639,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-6.25078,0},{0,-19.0314,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-6.25078,0},{0,-19.0314,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-6.25078,0},{0,-19.0314,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-6.63533,0},{0,-19.2276,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-6.63533,0},{0,-19.2276,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-7.02381,0},{0,-19.4238,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-7.02381,0},{0,-19.4238,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-7.02381,0},{0,-19.4238,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-7.41621,0},{0,-19.62,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-7.41621,0},{0,-19.62,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-7.41621,0},{0,-19.62,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-7.81253,0},{0,-19.8162,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-7.81253,0},{0,-19.8162,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-8.21278,0},{0,-20.0124,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-8.21278,0},{0,-20.0124,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-8.21278,0},{0,-20.0124,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-8.61695,0},{0,-20.2086,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-9.02505,0},{0,-20.4048,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-9.43707,0},{0,-20.601,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-9.43707,0},{0,-20.601,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-9.43707,0},{0,-20.601,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-9.85301,0},{0,-20.7972,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-9.85301,0},{0,-20.7972,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-9.85301,0},{0,-20.7972,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-10.2729,0},{0,-20.9934,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-10.2729,0},{0,-20.9934,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-10.2729,0},{0,-20.9934,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-10.6967,0},{0,-21.1896,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-10.6967,0},{0,-21.1896,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-10.6967,0},{0,-21.1896,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-11.1244,0},{0,-21.3858,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-11.1244,0},{0,-21.3858,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-11.1244,0},{0,-21.3858,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-11.1244,0},{0,-21.3858,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-11.556,0},{0,-21.582,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-11.556,0},{0,-21.582,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-11.556,0},{0,-21.582,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-11.9916,0},{0,-21.7782,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-12.4311,0},{0,-21.9744,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-12.4311,0},{0,-21.9744,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-12.8745,0},{0,-22.1706,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-12.8745,0},{0,-22.1706,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-12.8745,0},{0,-22.1706,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-13.3218,0},{0,-22.3668,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-13.3218,0},{0,-22.3668,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-13.3218,0},{0,-22.3668,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-13.7731,0},{0,-22.563,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-13.7731,0},{0,-22.563,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-13.7731,0},{0,-22.563,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-14.2283,0},{0,-22.7592,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-14.2283,0},{0,-22.7592,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-14.6874,0},{0,-22.9554,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-14.6874,0},{0,-22.9554,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-14.6874,0},{0,-22.9554,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-15.1504,0},{0,-23.1516,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-15.1504,0},{0,-23.1516,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-15.6174,0},{0,-23.3478,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-16.0882,0},{0,-23.544,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-16.0882,0},{0,-23.544,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-16.0882,0},{0,-23.544,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-16.563,0},{0,-23.7402,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-16.563,0},{0,-23.7402,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-16.563,0},{0,-23.7402,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-17.0418,0},{0,-23.9364,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-17.0418,0},{0,-23.9364,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-17.0418,0},{0,-23.9364,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-17.5244,0},{0,-24.1326,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-17.5244,0},{0,-24.1326,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-17.5244,0},{0,-24.1326,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-17.5244,0},{0,-24.1326,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-18.011,0},{0,-24.3288,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-18.011,0},{0,-24.3288,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-18.011,0},{0,-24.3288,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-18.5015,0},{0,-24.525,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-18.5015,0},{0,-24.525,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-18.5015,0},{0,-24.525,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-18.9959,0},{0,-24.7212,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-19.4943,0},{0,-24.9174,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-19.4943,0},{0,-24.9174,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-19.4943,0},{0,-24.9174,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-19.9965,0},{0,-25.1136,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-19.9965,0},{0,-25.1136,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-19.9965,0},{0,-25.1136,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-20.5027,0},{0,-25.3098,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-20.5027,0},{0,-25.3098,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-20.5027,0},{0,-25.3098,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-20.5027,0},{0,-25.3098,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-21.0129,0},{0,-25.506,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-21.0129,0},{0,-25.506,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-21.0129,0},{0,-25.506,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-21.5269,0},{0,-25.7022,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-21.5269,0},{0,-25.7022,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-22.0449,0},{0,-25.8984,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-22.0449,0},{0,-25.8984,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-22.0449,0},{0,-25.8984,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-22.5668,0},{0,-26.0946,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-22.5668,0},{0,-26.0946,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-22.5668,0},{0,-26.0946,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-23.0926,0},{0,-26.2908,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-23.6223,0},{0,-26.487,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-23.6223,0},{0,-26.487,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-23.6223,0},{0,-26.487,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-24.156,0},{0,-26.6832,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-24.156,0},{0,-26.6832,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-24.156,0},{0,-26.6832,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-24.6936,0},{0,-26.8794,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-24.6936,0},{0,-26.8794,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-24.6936,0},{0,-26.8794,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-24.6936,0},{0,-26.8794,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-25.2351,0},{0,-27.0756,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-25.2351,0},{0,-27.0756,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-25.2351,0},{0,-27.0756,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-25.2351,0},{0,-27.0756,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-25.7805,0},{0,-27.2718,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-25.7805,0},{0,-27.2718,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-25.7805,0},{0,-27.2718,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-26.3299,0},{0,-27.468,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-26.3299,0},{0,-27.468,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-26.3299,0},{0,-27.468,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-26.3299,0},{0,-27.468,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-26.8832,0},{0,-27.6642,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-27.4404,0},{0,-27.8604,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-27.4404,0},{0,-27.8604,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-28.0015,0},{0,-28.0566,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-28.0015,0},{0,-28.0566,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-28.0015,0},{0,-28.0566,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-28.5666,0},{0,-28.2528,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-28.5666,0},{0,-28.2528,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-28.5666,0},{0,-28.2528,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-29.1355,0},{0,-28.449,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-29.1355,0},{0,-28.449,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-29.1355,0},{0,-28.449,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-29.7084,0},{0,-28.6452,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-29.7084,0},{0,-28.6452,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-29.7084,0},{0,-28.6452,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-29.7084,0},{0,-28.6452,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-30.2853,0},{0,-28.8414,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-30.2853,0},{0,-28.8414,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-30.2853,0},{0,-28.8414,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-30.866,0},{0,-29.0376,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-30.866,0},{0,-29.0376,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-30.866,0},{0,-29.0376,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-31.4507,0},{0,-29.2338,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-32.0393,0},{0,-29.43,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-32.0393,0},{0,-29.43,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-32.6318,0},{0,-29.6262,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-32.6318,0},{0,-29.6262,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-32.6318,0},{0,-29.6262,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-33.2283,0},{0,-29.8224,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-33.2283,0},{0,-29.8224,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-33.8286,0},{0,-30.0186,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-33.8286,0},{0,-30.0186,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-33.8286,0},{0,-30.0186,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-34.4329,0},{0,-30.2148,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-34.4329,0},{0,-30.2148,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-34.4329,0},{0,-30.2148,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-35.0411,0},{0,-30.411,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-35.0411,0},{0,-30.411,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-35.6533,0},{0,-30.6072,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-35.6533,0},{0,-30.6072,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-35.6533,0},{0,-30.6072,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-36.8893,0},{0,-30.9996,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-36.8893,0},{0,-30.9996,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-36.8893,0},{0,-30.9996,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-37.5133,0},{0,-31.1958,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-37.5133,0},{0,-31.1958,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-37.5133,0},{0,-31.1958,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-38.1411,0},{0,-31.392,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-38.1411,0},{0,-31.392,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-38.1411,0},{0,-31.392,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-38.7729,0},{0,-31.5882,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-38.7729,0},{0,-31.5882,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-38.7729,0},{0,-31.5882,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-39.4086,0},{0,-31.7844,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-39.4086,0},{0,-31.7844,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-39.4086,0},{0,-31.7844,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-40.0482,0},{0,-31.9806,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-40.0482,0},{0,-31.9806,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-40.0482,0},{0,-31.9806,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-40.0482,0},{0,-31.9806,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-40.6917,0},{0,-32.1768,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-40.6917,0},{0,-32.1768,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-41.3392,0},{0,-32.373,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-41.9905,0},{0,-32.5692,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-41.9905,0},{0,-32.5692,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-41.9905,0},{0,-32.5692,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-42.6459,0},{0,-32.7654,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-42.6459,0},{0,-32.7654,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-42.6459,0},{0,-32.7654,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-42.6459,0},{0,-32.7654,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-43.3051,0},{0,-32.9616,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-43.3051,0},{0,-32.9616,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-43.3051,0},{0,-32.9616,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-43.9682,0},{0,-33.1578,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-43.9682,0},{0,-33.1578,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-43.9682,0},{0,-33.1578,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-44.6353,0},{0,-33.354,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-44.6353,0},{0,-33.354,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-44.6353,0},{0,-33.354,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-45.3063,0},{0,-33.5502,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-45.3063,0},{0,-33.5502,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-45.3063,0},{0,-33.5502,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-45.9813,0},{0,-33.7464,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-45.9813,0},{0,-33.7464,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-46.6601,0},{0,-33.9426,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-47.3429,0},{0,-34.1388,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-47.3429,0},{0,-34.1388,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-47.3429,0},{0,-34.1388,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-48.0296,0},{0,-34.335,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-48.0296,0},{0,-34.335,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-48.0296,0},{0,-34.335,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-48.7202,0},{0,-34.5312,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-48.7202,0},{0,-34.5312,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-49.4147,0},{0,-34.7274,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-49.4147,0},{0,-34.7274,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-49.4147,0},{0,-34.7274,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-50.1132,0},{0,-34.9236,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-50.1132,0},{0,-34.9236,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-50.1132,0},{0,-34.9236,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-50.8156,0},{0,-35.1198,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-50.8156,0},{0,-35.1198,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-50.8156,0},{0,-35.1198,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-51.5219,0},{0,-35.316,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-52.2322,0},{0,-35.5122,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-52.2322,0},{0,-35.5122,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-52.9463,0},{0,-35.7084,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-52.9463,0},{0,-35.7084,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-52.9463,0},{0,-35.7084,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-53.6644,0},{0,-35.9046,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-53.6644,0},{0,-35.9046,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-54.3865,0},{0,-36.1008,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-54.3865,0},{0,-36.1008,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-54.3865,0},{0,-36.1008,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-55.1124,0},{0,-36.297,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-55.1124,0},{0,-36.297,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-55.1124,0},{0,-36.297,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-55.8423,0},{0,-36.4932,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-55.8423,0},{0,-36.4932,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-55.8423,0},{0,-36.4932,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-56.576,0},{0,-36.6894,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-56.576,0},{0,-36.6894,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-57.3138,0},{0,-36.8856,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-58.0554,0},{0,-37.0818,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-58.0554,0},{0,-37.0818,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-58.0554,0},{0,-37.0818,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-58.8009,0},{0,-37.278,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-58.8009,0},{0,-37.278,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-58.8009,0},{0,-37.278,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-59.5504,0},{0,-37.4742,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-59.5504,0},{0,-37.4742,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-60.3038,0},{0,-37.6704,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-61.0612,0},{0,-37.8666,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-61.0612,0},{0,-37.8666,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-61.0612,0},{0,-37.8666,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-61.0612,0},{0,-37.8666,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-61.8224,0},{0,-38.0628,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-61.8224,0},{0,-38.0628,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-61.8224,0},{0,-38.0628,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-62.5876,0},{0,-38.259,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-62.5876,0},{0,-38.259,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-63.3567,0},{0,-38.4552,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-63.3567,0},{0,-38.4552,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-64.1297,0},{0,-38.6514,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-64.1297,0},{0,-38.6514,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-64.1297,0},{0,-38.6514,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-64.9067,0},{0,-38.8476,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-64.9067,0},{0,-38.8476,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-64.9067,0},{0,-38.8476,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-64.9067,0},{0,-38.8476,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-65.6876,0},{0,-39.0438,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-65.6876,0},{0,-39.0438,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-65.6876,0},{0,-39.0438,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-66.4724,0},{0,-39.24,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-66.4724,0},{0,-39.24,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-66.4724,0},{0,-39.24,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-67.2611,0},{0,-39.4362,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-67.2611,0},{0,-39.4362,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-67.2611,0},{0,-39.4362,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-67.2611,0},{0,-39.4362,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-68.0537,0},{0,-39.6324,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-68.0537,0},{0,-39.6324,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-68.0537,0},{0,-39.6324,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-69.6508,0},{0,-40.0248,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-69.6508,0},{0,-40.0248,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-69.6508,0},{0,-40.0248,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-70.4552,0},{0,-40.221,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-70.4552,0},{0,-40.221,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-70.4552,0},{0,-40.221,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-71.2636,0},{0,-40.4172,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-71.2636,0},{0,-40.4172,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-71.2636,0},{0,-40.4172,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-72.0758,0},{0,-40.6134,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-72.0758,0},{0,-40.6134,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-72.892,0},{0,-40.8096,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-72.892,0},{0,-40.8096,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-73.7122,0},{0,-41.0058,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-73.7122,0},{0,-41.0058,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-73.7122,0},{0,-41.0058,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-74.5362,0},{0,-41.202,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-74.5362,0},{0,-41.202,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-75.3642,0},{0,-41.3982,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-76.196,0},{0,-41.5944,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-76.196,0},{0,-41.5944,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-77.0319,0},{0,-41.7906,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-77.0319,0},{0,-41.7906,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-77.0319,0},{0,-41.7906,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-77.8716,0},{0,-41.9868,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-77.8716,0},{0,-41.9868,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-77.8716,0},{0,-41.9868,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-78.7153,0},{0,-42.183,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-78.7153,0},{0,-42.183,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-78.7153,0},{0,-42.183,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-79.5628,0},{0,-42.3792,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-79.5628,0},{0,-42.3792,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-80.4144,0},{0,-42.5754,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-80.4144,0},{0,-42.5754,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-80.4144,0},{0,-42.5754,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-81.2698,0},{0,-42.7716,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-82.1291,0},{0,-42.9678,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-82.1291,0},{0,-42.9678,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-82.9924,0},{0,-43.164,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-82.9924,0},{0,-43.164,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-83.8596,0},{0,-43.3602,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-83.8596,0},{0,-43.3602,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-83.8596,0},{0,-43.3602,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-83.8596,0},{0,-43.3602,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-84.7308,0},{0,-43.5564,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-84.7308,0},{0,-43.5564,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-84.7308,0},{0,-43.5564,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-85.6058,0},{0,-43.7526,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-85.6058,0},{0,-43.7526,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-85.6058,0},{0,-43.7526,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-85.6058,0},{0,-43.7526,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-86.4848,0},{0,-43.9488,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-86.4848,0},{0,-43.9488,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-86.4848,0},{0,-43.9488,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-87.3677,0},{0,-44.145,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-87.3677,0},{0,-44.145,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-88.2545,0},{0,-44.3412,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-89.1453,0},{0,-44.5374,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-89.1453,0},{0,-44.5374,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-89.1453,0},{0,-44.5374,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-90.0399,0},{0,-44.7337,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-90.0399,0},{0,-44.7337,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-90.0399,0},{0,-44.7337,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-90.0399,0},{0,-44.7337,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-90.9385,0},{0,-44.9299,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-90.9385,0},{0,-44.9299,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-90.9385,0},{0,-44.9299,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-91.8411,0},{0,-45.1261,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-91.8411,0},{0,-45.1261,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-91.8411,0},{0,-45.1261,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-92.7475,0},{0,-45.3223,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-92.7475,0},{0,-45.3223,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-92.7475,0},{0,-45.3223,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-92.7475,0},{0,-45.3223,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-93.6579,0},{0,-45.5185,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-93.6579,0},{0,-45.5185,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-93.6579,0},{0,-45.5185,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-94.5722,0},{0,-45.7147,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-94.5722,0},{0,-45.7147,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-95.4904,0},{0,-45.9109,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-95.4904,0},{0,-45.9109,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-96.4125,0},{0,-46.1071,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-96.4125,0},{0,-46.1071,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-96.4125,0},{0,-46.1071,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-97.3386,0},{0,-46.3033,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-97.3386,0},{0,-46.3033,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-97.3386,0},{0,-46.3033,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-98.2686,0},{0,-46.4995,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-98.2686,0},{0,-46.4995,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-98.2686,0},{0,-46.4995,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-99.2025,0},{0,-46.6957,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-99.2025,0},{0,-46.6957,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-99.2025,0},{0,-46.6957,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-100.14,0},{0,-46.8919,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-100.14,0},{0,-46.8919,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-100.14,0},{0,-46.8919,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-101.082,0},{0,-47.0881,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-101.082,0},{0,-47.0881,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-101.082,0},{0,-47.0881,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-102.028,0},{0,-47.2843,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-102.977,0},{0,-47.4805,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-103.931,0},{0,-47.6767,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-103.931,0},{0,-47.6767,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-103.931,0},{0,-47.6767,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-104.888,0},{0,-47.8729,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-104.888,0},{0,-47.8729,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-105.85,0},{0,-48.0691,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-105.85,0},{0,-48.0691,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-105.85,0},{0,-48.0691,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-106.815,0},{0,-48.2653,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-106.815,0},{0,-48.2653,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-107.784,0},{0,-48.4615,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-107.784,0},{0,-48.4615,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-107.784,0},{0,-48.4615,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-108.757,0},{0,-48.6577,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-108.757,0},{0,-48.6577,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-108.757,0},{0,-48.6577,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-110.716,0},{0,-49.0501,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-110.716,0},{0,-49.0501,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-111.7,0},{0,-49.2463,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-111.7,0},{0,-49.2463,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-111.7,0},{0,-49.2463,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-112.689,0},{0,-49.4425,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-112.689,0},{0,-49.4425,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-112.689,0},{0,-49.4425,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-113.682,0},{0,-49.6387,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-113.682,0},{0,-49.6387,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-113.682,0},{0,-49.6387,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-114.679,0},{0,-49.8349,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-114.679,0},{0,-49.8349,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-115.679,0},{0,-50.0311,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-115.679,0},{0,-50.0311,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-115.679,0},{0,-50.0311,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-116.684,0},{0,-50.2273,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-116.684,0},{0,-50.2273,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-118.705,0},{0,-50.6197,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-118.705,0},{0,-50.6197,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-118.705,0},{0,-50.6197,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-119.721,0},{0,-50.8159,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-119.721,0},{0,-50.8159,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-119.721,0},{0,-50.8159,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-120.741,0},{0,-51.0121,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-120.741,0},{0,-51.0121,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-120.741,0},{0,-51.0121,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-121.766,0},{0,-51.2083,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-121.766,0},{0,-51.2083,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-122.794,0},{0,-51.4045,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-122.794,0},{0,-51.4045,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-122.794,0},{0,-51.4045,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-122.794,0},{0,-51.4045,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-123.826,0},{0,-51.6007,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-123.826,0},{0,-51.6007,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-123.826,0},{0,-51.6007,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-124.862,0},{0,-51.7969,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-125.901,0},{0,-51.9931,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-125.901,0},{0,-51.9931,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-126.945,0},{0,-52.1893,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-126.945,0},{0,-52.1893,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-126.945,0},{0,-52.1893,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-127.993,0},{0,-52.3855,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-127.993,0},{0,-52.3855,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-127.993,0},{0,-52.3855,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-129.045,0},{0,-52.5817,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-129.045,0},{0,-52.5817,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-129.045,0},{0,-52.5817,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-130.1,0},{0,-52.7779,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-130.1,0},{0,-52.7779,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-130.1,0},{0,-52.7779,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-130.1,0},{0,-52.7779,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-131.16,0},{0,-52.9741,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-131.16,0},{0,-52.9741,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-131.16,0},{0,-52.9741,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-132.223,0},{0,-53.1703,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-132.223,0},{0,-53.1703,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-132.223,0},{0,-53.1703,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-134.362,0},{0,-53.5627,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-134.362,0},{0,-53.5627,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-134.362,0},{0,-53.5627,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-134.362,0},{0,-53.5627,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-135.437,0},{0,-53.7589,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-135.437,0},{0,-53.7589,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-135.437,0},{0,-53.7589,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-135.437,0},{0,-53.7589,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-136.516,0},{0,-53.9551,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-136.516,0},{0,-53.9551,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-136.516,0},{0,-53.9551,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-137.599,0},{0,-54.1513,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-137.599,0},{0,-54.1513,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-137.599,0},{0,-54.1513,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-138.686,0},{0,-54.3475,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-138.686,0},{0,-54.3475,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-138.686,0},{0,-54.3475,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-138.686,0},{0,-54.3475,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-139.777,0},{0,-54.5437,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-139.777,0},{0,-54.5437,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-139.777,0},{0,-54.5437,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-140.872,0},{0,-54.7399,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-140.872,0},{0,-54.7399,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-141.97,0},{0,-54.9361,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-143.073,0},{0,-55.1323,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-143.073,0},{0,-55.1323,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false
+System::setListenerAttributes, 0, {{0.14,1,-4.02},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, false
+EventInstance::set3DAttributes, 2099168, {{0,-143.073,0},{0,-55.1323,0},{0,0,1},{0,1,0}}
+System::getBus, {63f7b051-6237-45a4-b825-7de7bc971906}, 2097888
+Bus::setMute, 2097888, false

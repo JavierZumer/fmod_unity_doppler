@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2c326d5b-78e5-429e-bc35-ba68b2eb7474}">
+		<property name="assetPath">
+			<value>Archived, Test Tone, 1000 Hz, Sine Wave SND3496 - Trimmed - Trimmed.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1c505657-4468-4795-8ad9-f66e1995d67a}</destination>
+		</relationship>
+	</object>
+</objects>
