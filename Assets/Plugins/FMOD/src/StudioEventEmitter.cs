@@ -43,7 +43,7 @@ namespace FMODUnity
 
         public bool IsActive { get; private set; }
 
-        private VelocityVector3 kinematicVelocity = null;
+        private VelocityVector3 kinematicVelocity;
         Vector3 positionLastFrame = Vector3.zero;
 
         public float MaxDistance
